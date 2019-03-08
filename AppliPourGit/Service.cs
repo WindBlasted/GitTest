@@ -26,6 +26,13 @@ namespace AppliPourGit
         {
             libelle = unLibelle;
         }
+
+        public string toString()
+        {
+
+            return "id : " + this.id + " libelle :" + this.libelle;
+
+        }
         
     }
 }
